@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
               <FaExternalLinkAlt className="transition-all pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-1" />
             </h2>
             <p className="transition-all text-gray-400 font-bold text-sm">
-              Bringing you the freshest harvest, handpicked directly from local
+              A full-stack app with admin panel to manage user orders. Bringing you the freshest harvest, handpicked directly from local
               farms and delivered to your doorstep, 24/7.
             </p>
             <ul className="flex flex-wrap gap-2 text-teal-400 transition-all">
@@ -151,39 +151,7 @@ const Projects: React.FC = () => {
         </div>
       </Link>
 
-      {/* Project 5 */}
-      <Link href="https://todo-list-js-puce-ten.vercel.app/" passHref>
-        <div className="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all cursor-pointer">
-          <p className="transition-all text-gray-400 font-semibold text-sm py-2">
-            <img
-              src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className="w-44 h-22 md:w-full rounded-xl opacity-20"
-              alt=""
-            />
-          </p>
-          <div className="grid col-span-3 gap-3">
-            <h2 className="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all">
-              <span className="flex">JavaScript Developer</span>
-              <span className="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"></span>
-              <span>A ToDo App</span>
-              <FaExternalLinkAlt className="transition-all pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-1" />
-            </h2>
-            <p className="transition-all text-gray-400 font-bold text-sm">
-              A JavaScript ToDo list app where you can add and delete tasks.
-            </p>
-            <ul className="flex flex-wrap gap-2 text-teal-400 transition-all">
-              {["JavaScript", "TailwindCss", "Html/Css"].map((skill) => (
-                <li
-                  key={skill}
-                  className="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
-                >
-                  {skill}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </Link>
+     
 
       {/* View Full Project Archive */}
       <Link href="https://github.com/Goldmyn" passHref>

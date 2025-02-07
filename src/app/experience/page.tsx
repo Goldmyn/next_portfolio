@@ -94,7 +94,7 @@ const Experience: React.FC = () => {
       </Link>
 
       {/* View Full Resume Link */}
-      <a href="/Profile.pdf" target="_blank">
+      <a href="/Profile.pdf" target="_blank" rel="noopener noreferrer">
         <div className="group mt-8 cursor-pointer">
           <h2 className="relative flex text-gray-300 group-hover:text-teal-400">
             <span className="transition-all text-lg font-bold">

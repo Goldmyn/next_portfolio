@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
             rel="noopener noreferrer"
           >
             <FaTwitter size={30} />
-            <span className="text-2xl font-bold">React Me On Twitter </span>
+            <span className="text-2xl font-bold">Reach Me On Twitter </span>
           </a>
         </li>
         <li>

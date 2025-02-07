@@ -1,4 +1,3 @@
-
 import React from "react";
 import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -11,6 +10,43 @@ const Projects: React.FC = () => {
       </div> */}
 
       {/* Project 1 */}
+      <Link href="https://f-mart.vercel.app/" passHref>
+        <div className="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all cursor-pointer">
+          <p className="transition-all text-gray-400 font-semibold text-sm py-2">
+            <img
+              src="fmart.jpg"
+              className="w-44 h-22 md:w-full rounded-xl"
+              alt="F.mart Market"
+            />
+          </p>
+          <div className="grid col-span-3 gap-3">
+            <h2 className="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all">
+              <span className="flex">F.mart</span>
+              <span className="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"></span>
+              <span>Market</span>
+              <FaExternalLinkAlt className="transition-all pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-1" />
+            </h2>
+            <p className="transition-all text-gray-400 font-bold text-sm">
+              Bringing you the freshest harvest, handpicked directly from local
+              farms and delivered to your doorstep, 24/7.
+            </p>
+            <ul className="flex flex-wrap gap-2 text-teal-400 transition-all">
+              {["E-commerce", "React.js", "Ant.d", "TailwindCSS", "MongoDB"].map(
+                (tech) => (
+                  <li
+                    key={tech}
+                    className="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    {tech}
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+        </div>
+      </Link>
+
+      {/* Project 2 */}
       <Link href="https://eduazn.com/" passHref>
         <div className="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all cursor-pointer">
           <p className="transition-all text-gray-400 font-semibold text-sm py-2">
@@ -47,7 +83,7 @@ const Projects: React.FC = () => {
         </div>
       </Link>
 
-      {/* Project 2 */}
+      {/* Project 3 */}
       <Link href="https://ember-oak.vercel.app/" passHref>
         <div className="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all cursor-pointer">
           <p className="transition-all text-gray-400 font-semibold text-sm py-2">
@@ -81,7 +117,7 @@ const Projects: React.FC = () => {
         </div>
       </Link>
 
-      {/* Project 3 */}
+      {/* Project 4 */}
       <Link href="https://geoboek-properties.vercel.app/" passHref>
         <div className="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all cursor-pointer">
           <p className="transition-all text-gray-400 font-semibold text-sm py-2">
@@ -115,7 +151,7 @@ const Projects: React.FC = () => {
         </div>
       </Link>
 
-      {/* Project 4 */}
+      {/* Project 5 */}
       <Link href="https://todo-list-js-puce-ten.vercel.app/" passHref>
         <div className="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all cursor-pointer">
           <p className="transition-all text-gray-400 font-semibold text-sm py-2">

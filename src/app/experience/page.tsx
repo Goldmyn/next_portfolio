@@ -17,7 +17,7 @@ const Experience: React.FC = () => {
           </p>
           <div className="grid col-span-3 gap-3">
             <h2 className="h2Anchor relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all">
-              <span className="flex">Senior FullStack Developer</span>
+              <span className="flex">FullStack Developer</span>
               <span className="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"></span>
               <span>Eduazn</span>
               <FaExternalLinkAlt className="transition-all pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-1" />
@@ -50,7 +50,7 @@ const Experience: React.FC = () => {
           </p>
           <div className="grid col-span-3">
             <h2 className="h2Anchor relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all">
-              <span>Senior FrontEnd Developer</span>
+              <span>FrontEnd Developer</span>
               <span className="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"></span>
               <span>Stif</span>
               <FaExternalLinkAlt className="transition-all pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-1" />

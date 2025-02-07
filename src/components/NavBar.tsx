@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
   }, [greetings]);
   return (
     <nav className=" text-white lg:h-screen lg:ml-[5rem] xl:ml-[7rem]">
-      <ul className="flex fixed w-full mx-auto top-0 z-20  mb-4 bg-slate-900/75 px-6 py-5 backdrop-blur   lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+      <ul className="sm:flex grid grid-cols-2 fixed w-full mx-auto pt-2 sm:w-full sm:justify-center top-0 z-20  mb-4 bg-slate-900/75 px-6 sm:py-5 backdrop-blur   lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         {["about", "experience", "builds", "contact"].map((item) => (
           <li className="mb-3" key={item}>
             <Link href={`/${item}`} passHref>
@@ -40,7 +40,7 @@ const NavBar: React.FC = () => {
           </li>
         ))}
       </ul>
-      <h1 className="text-5xl max-w-[450px] mt-10 lg:mt-0 font-bold my-3 text-gray-300 animate-pulse">
+      <h1 className="text-5xl max-w-[450px] mt-14 sm:mt-10 lg:mt-0 font-bold my-3 text-gray-300 animate-pulse">
         <span className="text-5xl">{greeting}</span>
       </h1>
       <h5 className="text-xl font-semibold mb-5 text-gray-300">
@@ -50,7 +50,7 @@ const NavBar: React.FC = () => {
         I build pixel-perfect engaging and accessible digital experiences
       </p>
       <ul className="hidden lg:block lg:mt-20">
-        {["about", "experience", "projects", "contact"].map((item) => (
+        {["about", "projects", "experience", "contact"].map((item) => (
           <li className="mb-3" key={item}>
             <Link href={`/${item}`} passHref>
               {/* Directly place the inner content without an extra <a> */}
